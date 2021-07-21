@@ -1,0 +1,10 @@
+package com.cg.ppmtoolapi.service;
+
+import com.cg.ppmtoolapi.domain.Project;
+import com.cg.ppmtoolapi.exception.ProjectIdException;
+
+public interface ProjectService {
+	
+	public Project saveOrUpdate(Project project);
+	
+}

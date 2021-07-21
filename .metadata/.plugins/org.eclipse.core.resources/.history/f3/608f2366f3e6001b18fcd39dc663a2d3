@@ -1,0 +1,7 @@
+package com.cg.ppmtoolapi.exception;
+
+public class ProjectIdExceptionResponse {
+	
+	private String projectIdentifier;
+	
+}

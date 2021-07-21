@@ -1,0 +1,13 @@
+package com.cg.ppmtoolapi.service;
+
+import com.cg.ppmtoolapi.domain.Project;
+
+public class ProjectServiceImpl implements ProjectService {
+
+	@Override
+	public Project saveOrUpdate(Project project) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.cg.ppmtoolapi.projectserviceimpl;
+
+import com.cg.ppmtoolapi.domain.ProjectTask;
+import com.cg.ppmtoolapi.service.ProjectTaskService;
+
+public class ProjectTaskServiceImpl implements ProjectTaskService {
+
+	@Override
+	public ProjectTask addProjectTask(String projectIdentifier, ProjectTask projectTask) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

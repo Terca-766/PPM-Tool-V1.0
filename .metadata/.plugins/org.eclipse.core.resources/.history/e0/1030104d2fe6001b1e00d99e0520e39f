@@ -1,0 +1,15 @@
+package com.cg.ppmtoolapi.service;
+
+import org.springframework.stereotype.Service;
+
+import com.cg.ppmtoolapi.domain.Project;
+
+@Service
+public class ProjectServiceImpl implements ProjectService {
+
+	@Override
+	public Project saveOrUpdate(Project project) {
+		return null;
+	}
+
+}

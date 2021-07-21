@@ -1,0 +1,13 @@
+package com.cg.ppmtoolapi.exception;
+
+import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
+
+/*
+ *  This class will work as a global exception handler in Project Management App.
+ *  All the Exception related methods need to be provided in this class
+ *  @author prashant
+ *   
+ */
+public class CustomResponseEntityExceptionHandller extends ResponseEntityExceptionHandler {
+
+}

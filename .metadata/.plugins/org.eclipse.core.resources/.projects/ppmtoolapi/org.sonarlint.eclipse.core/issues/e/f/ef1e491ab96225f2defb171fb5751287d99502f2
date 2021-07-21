@@ -1,0 +1,10 @@
+
+w
+java:S1854="?Remove this useless assignment to local variable "projectTask".(¦€–úÿÿÿÿ8¨–Ó“¬/HÆRMAJORZ
+CODE_SMELL
+e
+java:S4973$"9Use the "equals" method if value comparison was intended.(‚°ºı8Ò–ÿó«/HòRMAJORZBUG
+ˆ	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø‰™òøÿÿÿÿ8‰çÛ’¬/H’RMINORZ
+CODE_SMELL
+ˆ	java:S117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿Ûá­üÿÿÿÿ8¨–Ó“¬/HÅRMINORZ
+CODE_SMELL

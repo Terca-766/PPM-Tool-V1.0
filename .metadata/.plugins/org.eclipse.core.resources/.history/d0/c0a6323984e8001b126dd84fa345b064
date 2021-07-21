@@ -1,0 +1,20 @@
+package com.cg.ppmtoolapi.web;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.cg.ppmtoolapi.service.ProjectTaskService;
+
+@RestController
+@RequestMapping("/api/backlog")
+public class BacklogController {
+
+	@Autowired
+	private ProjectTaskService projectTaskService;
+	
+	public ResponseEntity<?> addPTToBacklog(){
+		
+	}
+}

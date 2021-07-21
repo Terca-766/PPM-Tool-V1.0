@@ -1,0 +1,29 @@
+package com.cg.ppmtoolapi.service;
+
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cg.ppmtoolapi.domain.Project;
+import com.cg.ppmtoolapi.exception.ProjectIdException;
+import com.cg.ppmtoolapi.repository.ProjectRepository;
+
+@Service
+public class ProjectServiceImpl implements ProjectService {
+	
+	Logger loggerLoggerFactory.getLogger(ProjectServiceImpl.class);
+	
+	@Autowired
+	private ProjectRepository projectRepository;
+
+	@Override
+	public Project saveOrUpdate(Project project) {
+		try {
+			project.setProjectIdentifier(project.getProjectIdentifier().toUpperCase());
+			return projectRepository.save(project);
+		} catch (Exception ex) {
+			throw new ProjectIdException("Project id " + project.getProjectIdentifier() + " is already available");
+		}
+	}
+
+}

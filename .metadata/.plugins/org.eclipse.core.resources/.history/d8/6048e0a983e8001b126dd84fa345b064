@@ -1,0 +1,36 @@
+package com.cg.ppmtoolapi.projectserviceimpl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cg.ppmtoolapi.domain.Backlog;
+import com.cg.ppmtoolapi.domain.ProjectTask;
+import com.cg.ppmtoolapi.repository.BacklogRepository;
+import com.cg.ppmtoolapi.repository.ProjectTaskRepository;
+import com.cg.ppmtoolapi.service.ProjectTaskService;
+
+@Service
+public class ProjectTaskServiceImpl implements ProjectTaskService {
+
+	@Autowired
+	private BacklogRepository backlogRepository;
+
+	@Autowired
+	private ProjectTaskRepository projectTaskRepository;
+
+	@Override
+	public ProjectTask addProjectTask(String projectIdentifier, ProjectTask projectTask) {
+		Backlog backlog = backlogRepository.findByProjectIdentifier(projectIdentifier);
+		projectTask.setBacklog(backlog);
+		Integer projectTaskSequence = backlog.getProjectTaskSequence();
+		projectTaskSequence++;
+		backlog.setProjectTaskSequence(projectTaskSequence);
+		projectTask.setProjectSequence(projectIdentifier + "-" + projectTaskSequence);
+		if (projectTask.getPriority() == null)
+			projectTask.setPriority(ProjectTaskService.PRIORITY_LOW);
+		if (projectTask.getStatus() == null || projectTask.getStatus() == "")
+			projectTask.setStatus(ProjectTaskService.TO_DO);
+		return null;
+	}
+
+}

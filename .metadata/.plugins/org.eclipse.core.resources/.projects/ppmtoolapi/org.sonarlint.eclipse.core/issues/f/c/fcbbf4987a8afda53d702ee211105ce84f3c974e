@@ -1,0 +1,38 @@
+
+ˆ	java:S117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ñõ¹ıÿÿÿÿ8÷°•ô«/H‚RMINORZ
+CODE_SMELL
+‘
+java:S2293>"YReplace the type specification in this constructor call with the diamond operator ("<>").(×€›ïûÿÿÿÿ8ÆÅ£–¬/HËRMINORZ
+CODE_SMELL
+y
+java:S46841"@Replace this persistent entity with a simple POJO or DTO object.(šÛÀğ8ãÑ—ô«/HRCRITICALZVULNERABILITY
+a
+java:S1452+"&Remove usage of generic wildcard type.(ñ·î–üÿÿÿÿ8ÌŞô«/HƒRCRITICALZ
+CODE_SMELL
+a
+java:S1452<"&Remove usage of generic wildcard type.(±ñõ¹ıÿÿÿÿ8‡µĞ¬/HˆRCRITICALZ
+CODE_SMELL
+a
+java:S1452!"&Remove usage of generic wildcard type.(ÄÖÄ³ıÿÿÿÿ8âòï’¬/HšRCRITICALZ
+CODE_SMELL
+~
+java:S4684!"@Replace this persistent entity with a simple POJO or DTO object.(ÄÖÄ³ıÿÿÿÿ8Šã‚“¬/H¨RCRITICALZVULNERABILITY
+ˆ	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ·î–üÿÿÿÿ8ÆÅ£–¬/HÉRMINORZ
+CODE_SMELL
+‹
+java:S22938"YReplace the type specification in this constructor call with the diamond operator ("<>").(şêÙ
+8¿£Ó¬/H‰RMINORZ
+CODE_SMELL
+‘
+java:S2293'"YReplace the type specification in this constructor call with the diamond operator ("<>").(çªúËøÿÿÿÿ8îÕ£ô«/H„RMINORZ
+CODE_SMELL
+ˆ	java:S117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã©âøÿÿÿÿ8âòï’¬/H˜RMINORZ
+CODE_SMELL
+\
+java:S14521"&Remove usage of generic wildcard type.(šÛÀğ8ÆÅ£–¬/HÊRCRITICALZ
+CODE_SMELL
+Œ
+java:S2293-"YReplace the type specification in this constructor call with the diamond operator ("<>").(¼Úéˆ8®¬€“¬/H§RMINORZ
+CODE_SMELL
+ˆ	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õÔüÇıÿÿÿÿ8‡µĞ¬/H†RMINORZ
+CODE_SMELL

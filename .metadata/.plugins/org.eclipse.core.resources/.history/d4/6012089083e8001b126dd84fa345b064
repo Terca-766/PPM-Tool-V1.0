@@ -1,0 +1,13 @@
+package com.cg.ppmtoolapi.service;
+
+import com.cg.ppmtoolapi.domain.ProjectTask;
+
+public interface ProjectTaskService {
+
+	public static final Integer PRIORITY_HIGH = 1;
+	public static final Integer PRIORITY_MEDIUM = 2;	
+	public static final Integer PRIORITY_LOW = 3;
+	
+	public ProjectTask addProjectTask(String projectIdentifier, ProjectTask projectTask);
+	
+}

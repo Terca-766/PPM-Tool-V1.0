@@ -1,0 +1,9 @@
+package com.cg.ppmtoolapi.service;
+
+import com.cg.ppmtoolapi.domain.ProjectTask;
+
+public interface ProjectTaskService {
+
+	public ProjectTask addProjectTask(String projectIdentifier, ProjectTask projectTask);
+	
+}

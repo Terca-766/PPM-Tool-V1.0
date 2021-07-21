@@ -1,0 +1,9 @@
+package com.cg.ppmtoolapi.service;
+
+import com.cg.ppmtoolapi.domain.Project;
+
+public interface ProjectService {
+	
+	public Project saveOrUpdate(Project project);
+	
+}
