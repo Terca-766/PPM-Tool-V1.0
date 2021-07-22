@@ -1,17 +1,17 @@
 
-	java:S100‚"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£ñ©®8—ıòç«/HúRMINORZ
+†	java:S100ƒ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÙåÿÿÿÿÿ8—ıòç«/H£RMINORZ
 CODE_SMELL
-ˆ	java:S117~"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÙåÿÿÿÿÿ8—ıòç«/HóRMINORZ
+Œ	java:S116+"URename this field "created_at" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±“¡ıüÿÿÿÿ8ÿóç«/H©RMINORZ
 CODE_SMELL
-	java:S100†"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëıÜÁ8—ıòç«/H÷RMINORZ
+„	java:S117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëıÜÁ8—ıòç«/H¨RMINORZ
 CODE_SMELL
-…	java:S100z"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®£˜Ùøÿÿÿÿ8—ıòç«/HøRMINORZ
+	java:S100‡"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£ñ©®8—ıòç«/H¤RMINORZ
 CODE_SMELL
-„	java:S117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëıÜÁ8—ıòç«/HùRMINORZ
+‰	java:S117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÙåÿÿÿÿÿ8—ıòç«/H¥RMINORZ
 CODE_SMELL
-…	java:S100~"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÙåÿÿÿÿÿ8—ıòç«/HöRMINORZ
+‡	java:S116-"URename this field "updated_at" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğüı8ÿóç«/H¦RMINORZ
 CODE_SMELL
-‡	java:S116("URename this field "updated_at" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğüı8ÿóç«/HõRMINORZ
+…	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®£˜Ùøÿÿÿÿ8—ıòç«/H§RMINORZ
 CODE_SMELL
-Œ	java:S116&"URename this field "created_at" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±“¡ıüÿÿÿÿ8ÿóç«/HôRMINORZ
+	java:S100‹"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëıÜÁ8—ıòç«/HªRMINORZ
 CODE_SMELL

@@ -1,4 +1,4 @@
-package com.cg.ppmtoolapi.projectserviceimpl;
+package com.cg.ppmtoolapi.serviceimpl;
 
 import java.util.List;
 
@@ -49,7 +49,7 @@ public class ProjectTaskServiceImpl implements ProjectTaskService {
 		ProjectTask projectTask = projectTaskRepository.findProjectTaskByProjectSequence(sequence.toUpperCase());
 		if (projectTask == null)
 			throw new ProjectNotFoundException("ProjectTask id: " + sequence + " does not exists.");
-		if (!sequence.contains(projectIdentifier))
+		if (!projectTask.getProjectIdentifier().equals(projectIdentifier))
 			throw new ProjectNotFoundException(
 					"ProjectTask id: " + sequence + " not found for Project id: " + projectIdentifier);
 		return projectTask;

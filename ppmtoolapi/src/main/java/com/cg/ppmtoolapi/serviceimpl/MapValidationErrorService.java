@@ -1,4 +1,4 @@
-package com.cg.ppmtoolapi.projectserviceimpl;
+package com.cg.ppmtoolapi.serviceimpl;
 
 import java.util.HashMap;
 import java.util.Map;

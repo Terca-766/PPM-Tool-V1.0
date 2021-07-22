@@ -1,4 +1,4 @@
-package com.cg.ppmtoolapi.projectserviceimpl;
+package com.cg.ppmtoolapi.serviceimpl;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

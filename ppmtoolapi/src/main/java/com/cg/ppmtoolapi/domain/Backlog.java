@@ -15,11 +15,16 @@ import javax.persistence.OneToOne;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
 @Entity
+@ApiModel(value = "Backlog", description = "Deatils about the backlog entity.")
 public class Backlog {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@ApiModelProperty(value = "Primary key for Backlog")
 	private Long id;
 	private Integer projectTaskSequence = 0;
 	private String projectIdentifier;
@@ -28,6 +33,7 @@ public class Backlog {
 	@JsonIgnore
 	private Project project;
 	@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER, mappedBy = "backlog")
+	@ApiModelProperty(hidden = true)
 	private List<ProjectTask> projectTasks = new ArrayList<>();
 
 	public Backlog() {

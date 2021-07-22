@@ -18,11 +18,16 @@ import javax.validation.constraints.Size;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
 @Entity
+@ApiModel(value = "Project", description = "Deatils about the Project entity.")
 public class Project {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
+	@ApiModelProperty(value = "Primary key for Project")
 	private Long id;
 	@NotBlank(message = "Project Name is required.")
 	private String projectName;

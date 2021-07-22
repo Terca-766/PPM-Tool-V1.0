@@ -18,11 +18,16 @@ import javax.validation.constraints.NotBlank;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
 @Entity
+@ApiModel(value = "Project Task", description = "Deatils about the Project Task entity.")
 public class ProjectTask {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@ApiModelProperty(value = "Primary key for Project Task")
 	private Long id;
 	@Column(updatable = false, unique = true)
 	private String projectSequence;

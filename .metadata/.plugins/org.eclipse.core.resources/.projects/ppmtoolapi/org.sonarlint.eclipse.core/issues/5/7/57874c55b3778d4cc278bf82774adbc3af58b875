@@ -1,15 +1,18 @@
 
-Œ
-java:S22930"YReplace the type specification in this constructor call with the diamond operator ("<>").(‘ƒÃ8¯½úª/H¹RMINORZ
-CODE_SMELL
 ‹
-java:S2293;"YReplace the type specification in this constructor call with the diamond operator ("<>").(èšÌa8²ñ˜Ò«/H¸RMINORZ
+java:S2293C"YReplace the type specification in this constructor call with the diamond operator ("<>").(èšÌa8²ñ˜Ò«/H‘RMINORZ
+CODE_SMELL
+k
+java:S1874"3Remove this use of "description"; it is deprecated.(êÉî¾şÿÿÿÿ8¬§ëä¬/H’RMINORZ
 CODE_SMELL
 Œ
-java:S2293("YReplace the type specification in this constructor call with the diamond operator ("<>").(óçş‰8âÂ¿Ñ«/H¶RMINORZ
-CODE_SMELL
-a
-java:S1452#"&Remove usage of generic wildcard type.(åÒéÄøÿÿÿÿ8§üàúª/HµRCRITICALZ
+java:S22936"YReplace the type specification in this constructor call with the diamond operator ("<>").(‘ƒÃ8¯½úª/HRMINORZ
 CODE_SMELL
 ~
-java:S4684#"@Replace this persistent entity with a simple POJO or DTO object.(åÒéÄøÿÿÿÿ8¾ÿ†úª/H·RCRITICALZVULNERABILITY
+java:S4684("@Replace this persistent entity with a simple POJO or DTO object.(åÒéÄøÿÿÿÿ8¾ÿ†úª/HRCRITICALZVULNERABILITY
+a
+java:S1452("&Remove usage of generic wildcard type.(åÒéÄøÿÿÿÿ8§üàúª/HRCRITICALZ
+CODE_SMELL
+Œ
+java:S2293-"YReplace the type specification in this constructor call with the diamond operator ("<>").(óçş‰8âÂ¿Ñ«/HRMINORZ
+CODE_SMELL

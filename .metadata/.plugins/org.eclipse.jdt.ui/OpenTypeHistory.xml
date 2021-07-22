@@ -1,8 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-    <typeInfo handle="=ppmtoolapi/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.cg.ppmtoolapi.service{ProjectService.java[ProjectService" modifiers="513" timestamp="1626622393236"/>
-    <typeInfo handle="=ppmtoolapi/F:\/JAva\/spring-tool-suite-4-4.10.0.RELEASE-e4.19.0-win32.win32.x86_64.self-extracting\/sts-4.10.0.RELEASE\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\/jre\/lib\/jrt-fs.jar`java.base=/maven.pomderived=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/15\/docs\/api\/=/&lt;java.lang(Exception.class[Exception" modifiers="33" timestamp="1612153662000"/>
-    <typeInfo handle="=ppmtoolapi/C:\/Users\/Prashant.DESKTOP-EDLSUCU\/.m2\/repository\/org\/springframework\/spring-webmvc\/5.3.8\/spring-webmvc-5.3.8.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-webmvc=/=/maven.version=/5.3.8=/=/maven.scope=/compile=/&lt;org.springframework.web.servlet.mvc.method.annotation(ResponseEntityExceptionHandler.class[ResponseEntityExceptionHandler" modifiers="1057" timestamp="1626419269525"/>
-    <typeInfo handle="=ppmtoolapi/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.cg.ppmtoolapi.service{ProjectTaskService.java[ProjectTaskService" modifiers="513" timestamp="1626693735604"/>
-    <typeInfo handle="=ppmtoolapi/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.cg.ppmtoolapi.repository{ProjectTaskRepository.java[ProjectTaskRepository" modifiers="513" timestamp="1626668826807"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>
